@@ -6,10 +6,12 @@ import { Provider } from "react-redux";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Lets build UBER</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Provider >
+      <View style={styles.container}>
+        <Text>Lets build UBER</Text>
+        <StatusBar style="auto" />
+      </View>
+    </Provider>
   );
 }
 
