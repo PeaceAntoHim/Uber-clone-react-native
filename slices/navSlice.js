@@ -9,7 +9,7 @@ const initialState = {
 
 // Create nav layer
 export const navSlice = createSlice({
-   name: 'nav',
+   name: "nav",
    initialState,
    reducer: {
       setOrigin: (state, action) => {
