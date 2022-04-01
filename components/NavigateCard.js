@@ -29,9 +29,9 @@ const NavigateCard = () => {
                               location: details.geometry.location,
                               destination: data.description
                            }))
-                           navigation.navigate('RideOptionCard'
-                        ); 
-                     }}
+                           navigation.navigate('RideOptionCard'); 
+                        }}
+                     enablePoweredByContainer={false}
                      query={{ 
                         key: GOOGLE_MAPS_APIKEY,
                         leanguage: "en",
