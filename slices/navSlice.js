@@ -21,7 +21,7 @@ export const navSlice = createSlice({
       setTravelTimeInformation: (state, action) => {
          state.travelTimeInformation = action.payload;
       },
-   },
+   }
 });
 
 // Disctructuring all data
