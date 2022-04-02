@@ -3,14 +3,14 @@ import { View, StyleSheet, Text, Image } from 'react-native';
 import Screen from '../components/Screen';
 import tw from 'tailwind-react-native-classnames';
 import NavOptions from '../components/NavOptions';
-import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete'
-import { GOOGLE_MAP_APIKEY } from '@env'
+import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
+import { GOOGLE_MAP_APIKEY } from '@env';
 import { useDispatch } from 'react-redux';
 import { setDestination, setOrigin } from '../redux/slices/navSlice';
 import NavFavourites from '../components/NavFavourites';
 
 const HomeScreen = () => {
-    const dispatch = useDispatch()
+    const dispatch = useDispatch();
 
     return (
         <Screen style={tw`bg-white h-full`}>
