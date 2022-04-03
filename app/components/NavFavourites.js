@@ -9,13 +9,13 @@ const data = [
         id: '3423',
         icon: 'home',
         location: 'Home',
-        destination: "Code street, London, UK"
+        destination: "Code street, Indonesia, Jakarta"
     },
     {
         id: '36567',
         icon: 'briefcase',
         location: 'Work',
-        destination: "Londone Eye, London, UK"
+        destination: "Indonesia Eye, Indonesia, Jakarta"
     },
 ]
 
