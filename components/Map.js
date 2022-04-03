@@ -28,9 +28,12 @@ const Map = () => {
          destination={destination.description}
          apikey={GOOGLE_MAPS_APIKEY}
          strokeWidth={3}
+         lineDashPattern={[0]}
          strokeColor="black"
+         onError={error => console.log("Directions error: ", error)}
          /> 
       )}
+
       {origin?.location && (
          <Marker 
             coordinate={{
@@ -40,7 +43,7 @@ const Map = () => {
             title="Origin"
             description={origin.description}
             identifier="origin"
-         />
+         ></Marker>
       )}
       </MapView>
    );
